@@ -1,0 +1,49 @@
+.amountLeft{
+  width: 15%;
+  margin-left: 63.5rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  
+}
+
+.refreshButtonAmountLeft{
+    margin-left: 72.5rem;
+    margin-top: -1.5rem;
+}
+
+
+@media (min-width: 1500px) {
+  .amountLeft {
+      width: 10%; /* Adjust as needed for desktop view */
+      margin-left: 85rem; /* Adjust as needed for desktop view */
+  }
+
+  .refreshButtonAmountLeft {
+      margin-left: 98.5rem; /* Adjust as needed for desktop view */
+      margin-top: -1.2rem; /* Adjust as needed for desktop view */
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .amountLeft {
+    width: 10%; /* Adjust as needed for desktop view */
+    margin-left: 36rem; /* Adjust as needed for desktop view */
+    margin-top: 3rem;
+  }
+  .refreshButtonAmountLeft {
+    margin-left: 44.5rem; /* Adjust as needed for desktop view */
+    margin-top: -1.75rem; /* Adjust as needed for desktop view */
+  }
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .amountLeft {
+    width: 72%; /* Adjust as needed for desktop view */
+    margin-left: 6.5rem; /* Adjust as needed for desktop view */
+    margin-top: 1rem;
+  }
+  .refreshButtonAmountLeft {
+    margin-left: 16rem; /* Adjust as needed for desktop view */
+    margin-top: -1.3rem; /* Adjust as needed for desktop view */
+  }
+}

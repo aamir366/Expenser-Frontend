@@ -1,0 +1,225 @@
+/* expenseTracker.css */
+
+.expenseContainer {
+  width: 60%; /* Adjust the width as needed */
+  position:absolute;
+  margin-left: 18rem;
+  padding: 20px; /* Add padding to the container */
+  border-radius: 15px; /* Add circular corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  margin-top: 15rem;
+  background-image: radial-gradient( circle 651px at 7% 22.8%, rgba(232,249,255,1) 10.5%, rgba(229,199,206,1) 51.3%, rgba(219,199,229,1) 97.6% );
+}
+
+
+.expenseList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Optional: Align items to the top of the container */
+  width: 49rem;
+}
+
+.expenseItem {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  margin-top: 2rem;
+}
+
+.dateBox {
+  flex: 1;
+  margin-right: 7rem;
+  width: 0.2rem;
+}
+.idBox{
+  background-color: greenyellow;
+  height: 1rem;
+  width: 15rem;
+  border-radius: 5%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+.dateBox input{
+  width: 6rem;
+  font-weight: bolder;
+}
+
+.descBox input{
+  width: 10rem;
+  font-weight: bolder;
+}
+.amountBox input {
+  width: 10rem;
+  font-weight: bolder;
+}
+
+
+.idBox,
+.descBox,
+.amountBox {
+  flex: 1;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.addExpenseButton{
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 12.5%;
+}
+
+.updateButton{
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 1.5rem;
+  border-radius: 12.5%;
+}
+
+.deleteButton{
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  height: 1.5rem;
+  border-radius: 12.5%;
+}
+
+
+
+.addNewFieldButton {
+  display: flex;
+  margin-top: 1.7rem;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #1877f2; 
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 50%; /* Rounded border */
+  font-size: 24px; /* Font size */
+  width: 36px; /* Button width */
+  height: 36px; /* Button height */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  
+}
+
+.addNewFieldButton:hover {
+  background-color: #0068f0; 
+}
+
+.settlementButton{
+  margin-top: -5rem;
+  margin-left: 44.5rem;
+}
+
+@media (min-width: 1500px) {
+  .expenseContainer {
+    margin-left: 30rem;
+    width: 50rem;
+  }
+  .settlementButton{
+    margin-left: 54rem;
+  }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .expenseContainer {
+    width: 86%; /* Adjust the width for tablet view */
+    margin-top: 25rem; /* Adjust as needed */
+    margin-left:2.5rem;
+  } 
+  .expenseList{
+    width: 100%;
+  }
+  .addExpenseButton{
+    margin-top: 6rem;
+    margin-left: -38rem;
+  }
+  .addNewFieldButton{
+    margin-top: 6rem;
+  }
+  .settlementButton{
+    margin-top: -10rem;
+    margin-left: 32rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+  .expenseContainer {
+    width: 82%; /* Adjust the width for tablet view */
+    margin-top: 22rem; /* Adjust as needed */
+    margin-left: 1rem;
+  } 
+  .expenseList{
+    margin-left: -2rem;
+   width: 19.5rem;
+  }
+  .dateBox {
+    width: 0.1rem;
+  }
+  .dateBox input{
+    width: 3.5rem;
+   
+  }
+  .amountBox{
+    margin-left: 0.8rem;
+    width: 0.4rem;
+  }
+  .amountBox input {
+    width: 4rem;
+    margin-left: -3rem;
+  }
+  .descBox{
+    margin-left: 0.5rem;
+    width: 0.6rem;
+  }
+  .expenseItem .updateButton{
+    margin-left: 5.5rem;
+    width: 3.5rem;
+  }
+  .expenseItem .deleteButton{
+    margin-left: 0.2rem;
+    width: 2.9rem;
+  }
+  .addExpenseButton{
+    margin-left: 2rem;
+  }
+  .addNewFieldButton{
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+  }
+
+  
+  
+
+  input,
+  input::placeholder {
+    font-size: 0.39rem;
+  }
+
+  .descBox input{
+    width: 5rem;
+    margin-left: 0.5rem;
+  }
+  .updateButton{
+    margin-left: 0.1rem;
+  }
+  .settlementButton{
+    margin-left: 8rem;
+    margin-top: -6rem;
+  }
+  
+  
+}

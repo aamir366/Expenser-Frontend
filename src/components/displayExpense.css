@@ -1,0 +1,57 @@
+.displayExpenseBox{
+    margin-top: 6rem;
+    margin-left: 60rem;
+    width: 20%;
+    height: 2rem;
+    font-weight: bold;
+}
+
+.expenseAmount{
+    margin-left: 3.5rem;
+}
+.refreshButtonExpense{
+    margin-left: 12.5rem;
+    font-size: 12px;
+    margin-top: -1.4rem; 
+}
+
+
+@media (min-width: 1500px) {                /* for desktop view */
+    .displayExpenseBox {
+        margin-left: 80rem; 
+    }
+
+    .expenseAmount {
+        margin-left: 5rem; 
+    }
+
+    .refreshButtonExpense {
+        margin-left: 18.5rem; 
+        font-size: 14px; 
+        margin-top: -1.2rem; 
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {         /* for tablet view*/
+    .displayExpenseBox {
+        margin-left: 32rem; 
+    }
+   
+    .refreshButton {
+        margin-top: -0..5rem; 
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 550px) {             /* for mobile view*/
+    .displayExpenseBox {
+        width: 87%;
+        margin-left: 3rem; 
+        margin-top: 10rem;
+    }
+    .refreshButtonExpense{
+        margin-left: 13rem;
+    }
+}
+
+

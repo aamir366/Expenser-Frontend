@@ -1,0 +1,102 @@
+.register {
+    width: 400px;
+    background: #f8f2f2;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+}
+.register h1{
+    font-family: cursive;
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 88%;
+    font-size: 1rem;
+}
+
+.register > .button {
+    background: #42b72a;
+    border: 1px solid #42b72a;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 21rem;
+}
+.register > .input-group input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.25rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 88%;
+    font-size: 1rem;
+}
+.register > .loginButton {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 21rem;
+
+}
+.dottedLine{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    width: 88%;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+  @media (max-width: 600px) {
+    .register {
+        width: 75%;
+        padding: 1rem;
+        text-align: center;
+        margin-top: -8rem;
+        margin-left: 0.5rem;
+    }
+
+    .register > input,
+    .register > .input-group input {
+        width: 100%;
+    }
+
+    .register > .button {
+        width: 95%;
+        margin-left: 0.2rem;
+    }
+
+    .register > .loginButton {
+        width: 95%;
+        margin-left: 0;
+    }
+}
+
+
+  
+  
+  
+

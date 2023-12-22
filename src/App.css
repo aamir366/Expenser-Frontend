@@ -1,0 +1,18 @@
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial,sans-serif;
+  background-color: aliceblue;
+}
+@media (min-width: 200px) and (max-width: 550px) {      /* for mobile view*/
+  .App{
+    width: 100vw;
+    height: 130vh;
+  }
+  
+}
+
+
